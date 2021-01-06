@@ -9,6 +9,15 @@ body{
     color: black;
     margin: 10px;
 }
+.text-size{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
 .name-highlights{
     color: blue;
 }
@@ -22,57 +31,45 @@ body{
     font-weight: normal;
     font-size: large;
 }
-.text-size{
-    font-size: 25px;
-    margin-left: 100px;
-    margin-top: 100px;
-}
-.half-width{
-    width: 40%;
-    float: left;
-}
-.img-size-1{
+.img1-size{
     height: 500px;
     width: 500px;
 }
 p{
     color: rgb(47, 47, 47);
 }
-
-.text-position {
+.text-position{
     position: absolute;
-    top: 1735px;
+    top: 2285px;
     left: 200px;
     font-size: 50px;
     color: white;
-  }
-  #bottom-img-style{
+}
+#bottom-img-style{
       width: 80%;
       margin-left: 125px;
-  }
-  #hyperlink-position{
+}
+#hyperlink-position{
     position: absolute;
-    top: 1745px;
+    top: 2300px;
     left: 1000px;
     font-size: 20px;
     padding: 5px;
-  }
-  #footer{
+}
+#footer-posi{
       text-align: center;
-  }
-  .icon-size{
+}
+.icon-size{
       height: 30px;
       width: 30px;
-  }
-  .space-in-between-icons{
+}
+.space-in-between-icons{
       margin: 7px 7px 7px 7px;
-  }
-
-
-  * {
-    box-sizing: border-box;
-  }
-  .column {
+}
+*{
+      box-sizing: border-box;
+}
+.column{
     border-radius: 20px;
     border-color: white;
     background-color: white;
@@ -80,7 +77,7 @@ p{
     width: 30%;
     margin: 10px;
     padding: 10px;
-  }
+}
 .img-posi{
     float: left;
     background-color: rgb(238, 238, 238);
@@ -90,4 +87,25 @@ p{
     text-align: center;
     font-size: 30px;
     margin-right: 70px;
+}
+.width-set{
+    width: 40%;
+    float: left;
+}
+.img3-size{
+    margin-top: 50px; 
+    height: 500px;
+    width: 500px;
+}
+#id1{
+    border left: 5px solid cyan;
+    box-shadow: 10px 10px 50px blue;
+    height: 60%;
+    background-color:rgb(231, 231, 231);
+    border-radius: 20px;
+}
+.projects-heading{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
 }
